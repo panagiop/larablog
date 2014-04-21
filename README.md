@@ -3,7 +3,7 @@ larablog
 
 A simple blog made with Laravel 4.1 and Bootstrap 3. A user can create an account and create/read/update/delete posts selecting the category in which will be residing in. A user can also read other user's posts.
 
-As far as it concerns the database schema, the following relationships applied:
+As far as it concerns the database schema, the following relationships applied:<br>
 User - Post (One-To-Many) <br>
 Post - Tag (Many-To-many) <br>
 Post - Text (One-To-One) <br>
